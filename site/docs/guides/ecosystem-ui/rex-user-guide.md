@@ -206,7 +206,8 @@ Historical Query is activated using a toggle. When the toggle is not set, then a
 
 When the toggle is set, you can specify a date and a time in the past, and all queries will be issued using that date and time.
 
-Some considerations when using historical query:
+Some considerations when using historical query :
+
   * Historical queries result in OMRS queries with the asOfTime parameter set.
   * Egeria repositories may or may not support the asOfTime parameter
   * if a future date is selected, the query is rejected
