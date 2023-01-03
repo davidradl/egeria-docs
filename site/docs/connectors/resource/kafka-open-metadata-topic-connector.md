@@ -98,7 +98,7 @@ The properties for the producer and consumer passed on the connection override t
 By default, kafka security is not configured. The exact configuration may depend on the specific kafka service being used. Service specific notes
 are below. They may work for other providers, and feedback is welcome so that this documentation can be updated accordingly.
 
-##### Example: IBM Event Streams on IBM Cloud
+##### Example: IBM® Event Streams for IBM Cloud®
 
 There are 2 key pieces of information that are provided in the documentation for your configured cloud service
 

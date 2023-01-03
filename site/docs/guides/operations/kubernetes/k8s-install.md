@@ -156,14 +156,14 @@ After installing, go into Docker Desktop **Settings** and select **Kubernetes**.
 
 Many cloud providers offer Kubernetes deployments which can be used for experimentation or production. These include:
 
-- [Redhat OpenShift :material-dock-window:](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it){ target=rhos } on multiple cloud providers including on [IBM Cloud :material-dock-window:](https://www.ibm.com/uk-en/cloud/openshift){ target=ibm }
-- [Kubernetes on IBM Cloud :material-dock-window:](https://www.ibm.com/cloud/kubernetes-service?p1=Search&p4=43700058232060428&p5=e&gclid=*&gclsrc=aw.ds){ target=ibm }
+- [Redhat OpenShift :material-dock-window:](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it){ target=rhos } on multiple cloud providers including on [IBM Cloud® :material-dock-window:](https://www.ibm.com/uk-en/cloud/openshift){ target=ibm }
+- [Kubernetes on IBM Cloud® :material-dock-window:](https://www.ibm.com/cloud/kubernetes-service?p1=Search&p4=43700058232060428&p5=e&gclid=*&gclsrc=aw.ds){ target=ibm }
 - [Azure Kubernetes Service :material-dock-window:](https://azure.microsoft.com/en-us/services/kubernetes-service/){ target=aws }
 - [Google Kubernetes Engine (GKE) :material-dock-window:](https://cloud.google.com/kubernetes-engine){ target=google }
 
 In addition to a cloud install, ensure you have installed the relevant cloud provider's tooling to manage their k8s environment, including having access to the standard Kubernetes command `kubectl`.
 
-Note that in the team's testing we mostly are running Redhat OpenShift on IBM Cloud as a managed service. We welcome feedback of running our examples on other environments, especially as some of the specifics around ingress rules, storage, security can vary.
+Note that in the team's testing we mostly are running Redhat OpenShift on IBM Cloud® as a managed service. We welcome feedback of running our examples on other environments, especially as some of the specifics around ingress rules, storage, security can vary.
 
 
 ---8<-- "snippets/abbr.md"
